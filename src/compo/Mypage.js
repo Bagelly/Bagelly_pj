@@ -1,10 +1,13 @@
 import React from "react";
-
+// import data from "./data";
 const  MyPage = () => {
+    // console.warn(data.productData)
     return (
-        // <div>
-            <h1> MyPage 입니다.</h1>
-        // </div>
+        <div>
+            <br/>
+            <h1 className="text-center mt-2">MyPage</h1> 
+            <br/>
+        </div> 
     )
 }
 
